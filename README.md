@@ -16,10 +16,10 @@ pip install -r requirements.txt
 
 `CHAT_ID` - Telegram chat ID
 
-`SKIFF_USERID` - Your skiff user ID. Copy from the request headers to `/graphql`
+`SKIFF_USERID` - Your skiff user ID. Copy from the request headers to `/graphql` (you must be logged in and located in the [mail](https://app.skiff.com/mail/inbox))
 ![skiff user id](img/userid.png)
 
-`SKIFF_SECURE` - Your skiff JWT token. Copy from the request headers to `/graphql`
+`SKIFF_SECURE` - Your skiff JWT token. Copy from the request headers to `/graphql` (you must be logged in and located in the [mail](https://app.skiff.com/mail/inbox))
 ![skiff JWT token](img/token.png)
 
 6. Run `main.py`
